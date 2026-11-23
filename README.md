@@ -49,7 +49,7 @@ in one version-controlled repository.
 Please cite the presentation as:
 
 Sikder, Sujit Kumar. *FAIRness: Presentation Creation, Collaboration &
-Sharing*. 2026.
+Sharing*. 2026. [![DOI](https://zenodo.org/badge/1468846696.svg)](https://doi.org/10.5281/zenodo.24468559)
 
 Machine-readable citation details are available in `CITATION.cff`.
 
