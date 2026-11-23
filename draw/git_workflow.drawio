@@ -1,0 +1,37 @@
+<mxfile host="65bd71144e">
+    <diagram id="git-workflow" name="Git Workflow">
+        <mxGraphModel dx="1982" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=30;fontStyle=1;fontColor=#17365D;" value="Git Workflow: Clone → Add → Commit → Push" vertex="1">
+                    <mxGeometry height="60" width="1240" x="120" y="145" as="geometry"/>
+                </mxCell>
+                <mxCell id="clone" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=2;fontSize=18;align=center;verticalAlign=middle;spacing=18;" value="&lt;b&gt;1. CLONE&lt;/b&gt;&lt;br&gt;&lt;br&gt;Get a copy of the repository&lt;br&gt;&lt;br&gt;&lt;font face=&quot;Courier New&quot;&gt;git clone &amp;lt;repository-url&amp;gt;&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="230" width="300" x="100" y="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="add" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=2;fontSize=18;align=center;verticalAlign=middle;spacing=18;" value="&lt;b&gt;2. ADD&lt;/b&gt;&lt;br&gt;&lt;br&gt;Stage your changes&lt;br&gt;&lt;br&gt;&lt;font face=&quot;Courier New&quot;&gt;git add .&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="230" width="300" x="480" y="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="commit" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=2;fontSize=18;align=center;verticalAlign=middle;spacing=18;" value="&lt;b&gt;3. COMMIT&lt;/b&gt;&lt;br&gt;&lt;br&gt;Save staged changes with a message&lt;br&gt;&lt;br&gt;&lt;font face=&quot;Courier New&quot;&gt;git commit -m &amp;quot;Your message&amp;quot;&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="230" width="300" x="860" y="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="push" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;strokeWidth=2;fontSize=18;align=center;verticalAlign=middle;spacing=18;" value="&lt;b&gt;4. PUSH&lt;/b&gt;&lt;br&gt;&lt;br&gt;Upload commits to the remote repository&lt;br&gt;&lt;br&gt;&lt;font face=&quot;Courier New&quot;&gt;git push&lt;/font&gt;" vertex="1">
+                    <mxGeometry height="230" width="300" x="1240" y="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="e1" edge="1" parent="1" source="clone" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#52677D;" target="add">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e2" edge="1" parent="1" source="add" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#52677D;" target="commit">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e3" edge="1" parent="1" source="commit" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#52677D;" target="push">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="footer" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=17;fontColor=#555555;" value="Local repository  →  Changes staged  →  Changes saved locally  →  Shared with the remote repository" vertex="1">
+                    <mxGeometry height="50" width="1240" x="180" y="545" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

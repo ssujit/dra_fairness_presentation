@@ -1,0 +1,10 @@
+* annex.backend=MD5E
+**/.git* annex.largefiles=nothing
+* annex.largefiles=((mimeencoding=binary)and(largerthan=0))
+
+# Citation metadata
+CITATION.cff
+
+# metadata
+metadata.text
+

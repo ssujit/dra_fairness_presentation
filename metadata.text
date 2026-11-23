@@ -1,0 +1,54 @@
+
+Title: FAIRness: Scientific Presentation Creation, Collaboration and Sharing
+
+Creator: Sujit Sikder
+Creator Identifier: [ORCiD](https://orcid.org/0000-0002-0265-7394)
+
+
+Description:
+Training material introducing FAIR principles in scientific
+presentation creation, collaboration, reproducibility,
+publication and sharing.
+
+Publisher: Sujit Sikder
+Publication Year: 2026
+Resource Type: Presentation
+Language: English
+
+Subject:
+- FAIR Principles
+- Open Science
+- Research Data Management
+- Reproducible Research
+- Scientific Communication
+
+Audience:
+Researchers, doctoral candidates, research support staff,
+and research data managers.
+
+Learning Objectives:
+- Apply FAIR principles to scientific presentations.
+- Prepare reproducible presentation materials.
+- Collaborate using version control.
+- Share and publish presentations with appropriate metadata.
+
+Version: 1.0
+Date: 2026-11-20
+
+Format:
+- Markdown
+- PDF
+
+
+Source Format: Marp Markdown
+Tools:
+- Marp
+- Visual Studio Code
+- Git
+
+License: CC BY 4.0
+Related Project: [Project name / URL]
+Related Identifier: [DOI, if applicable]
+
+Repository: [Repository URL]
+Contact: [Institutional contact]
