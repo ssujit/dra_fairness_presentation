@@ -34,7 +34,7 @@ style: |
 
 # __FAIRness__
 
-> Presentation Creation, Sharing & Collaboration
+> Presentation  Preparation, Collaboration and Sharing 
 
 
 ### Duration:** 60 minutes

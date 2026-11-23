@@ -48,7 +48,7 @@ in one version-controlled repository.
 
 Please cite the presentation as:
 
-Sikder, Sujit Kumar. *FAIRness: Presentation Preparation, Collaboration &
+Sikder, Sujit Kumar. *FAIRness: Presentation Creation, Collaboration &
 Sharing*. 2026.
 
 Machine-readable citation details are available in `CITATION.cff`.
