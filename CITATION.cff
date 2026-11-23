@@ -1,17 +1,33 @@
+
 cff-version: 1.2.0
-message: "If you use this presentation, please cite it as below.
+message: "If you use or adapt this presentation, please cite it as follows."
+title: "FAIRness: Presentation Preparation, Collaboration and Sharing"
+type: presentation
+
 authors:
   - family-names: Sikder
-    given-names: "Sujit Kumar"
-    email: s.sikder@ioer.de
-    affiliation: "Leibniz Institute of Ecological Urban and Regional Development (IOER)"
-doi: "10.0000/xx"
-abstract: >-
-  Training material about applying FAIR principles to scientific
-  presentations, including creation, collaboration, version control,
-  sharing, and archiving.
+    given-names: Sujit Kumar
+    orcid: "https://orcid.org/0000-0002-0265-7394"
+
+abstract: >
+  Training presentation on FAIR principles in scientific presentation
+  preparation, collaboration, and sharing. The presentation introduces
+  practical approaches and reproducible workflows for creating,
+  collaborating on, and sharing FAIR scientific presentations.
+
+version: 1.0.0
+date-released: 2026-11-23
+
+repository-code: "https://github.com/ssujit/dra_fairness_presentation.git"
+
 keywords:
   - FAIR principles
-  - scientific presentations
-  - reproducibility
-  - research data management
+  - Scientific presentations
+  - Open Science
+  - Research Data Management
+  - Reproducibility
+  - Collaboration
+  - Research Software
+
+license: CC-BY-4.0
+
